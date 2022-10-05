@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+.box{
+    min-height: 200px;
+    width: 70%;
+    border: 3px solid orange;
+    background-color: greenyellow;
+    box-shadow: 4px 4px 4px grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
