@@ -20,7 +20,7 @@ const passwordGenerated = userName + userSurname + userFavColor + suffixMail;
 console.log(passwordGenerated);
 
 // Preparo la frase di output
-const result = `La email è ${passwordGenerated}`;
+const result = `La password è ${passwordGenerated}`;
 
 // Scrivere output
-document.getElementById("email").innerHTML = result;
+document.getElementById("password").innerHTML = result;
